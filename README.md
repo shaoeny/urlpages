@@ -1,6 +1,6 @@
 # URL Pages
 
-[jstrieb.github.io/urlpages](http://jstrieb.github.io/urlpages)
+[shaoeny.github.io/urlpages](http://shaoeny.github.io/urlpages)
 
 ## About
 
@@ -21,7 +21,6 @@
 Read the Hacker News Discussion
 [here](https://news.ycombinator.com/item?id=20317840)
 
-
 ## Encrypt
 
 It is now possible to encrypt URL Pages using [Link
@@ -29,7 +28,6 @@ Lock](https://github.com/jstrieb/link-lock). This static, distributed web
 application uses AES in the browser to encrypt the URL without transmitting any
 data. The encrypted link is then stored in a Link Lock URL, which, when
 visited, can only be unlocked with a password.
-
 
 ## How it works
 
@@ -67,7 +65,6 @@ hierarchies), URL Pages have proven reasonably easy and effective to use,
 however it quickly becomes infeasible to use for large sites or large embedded
 images.
 
-
 ## Disclaimer
 
 This just becomes a toy if I am the only one hosting a running version of this
@@ -101,41 +98,40 @@ HTML/CSS/JavaScript experiments (never as a means of seriously publishing and
 sharing censorship-proof content). I found that if its use is limited to that
 case, it is actually very handy and robust!
 
-
 ## Examples
 
 The following examples were made and "published" using the provided [code
-editor](http://jstrieb.github.io/urlpages/editor).
+editor](http://shaoeny.github.io/urlpages/editor).
 
 - My personal website
-    - Code in the code editor [here](https://tinyurl.com/y64dmsqm)
-    - "Published" version [here](https://tinyurl.com/y5w9ybk2)
+  - Code in the code editor [here](https://tinyurl.com/y64dmsqm)
+  - "Published" version [here](https://tinyurl.com/y5w9ybk2)
 - Bookmarklet setup page
-    - Code in the code editor [here](https://tinyurl.com/y5r8y4v4)
-    - "Published" version [here](https://tinyurl.com/y3lw36uh)
+  - Code in the code editor [here](https://tinyurl.com/y5r8y4v4)
+  - "Published" version [here](https://tinyurl.com/y3lw36uh)
 - A page with embedded images (no external image host)
-    - Code in the code editor
-      [here](http://jstrieb.github.io/urlpages/examples/embed-code.html)
-    - "Published" page
-      [here](http://jstrieb.github.io/urlpages/examples/embed-page.html)
+  - Code in the code editor
+    [here](http://shaoeny.github.io/urlpages/examples/embed-code.html)
+  - "Published" page
+    [here](http://shaoeny.github.io/urlpages/examples/embed-page.html)
 
 The following examples were cloned from existing pages using the bookmarklet.
 
 - My dad's food blog
-  [here](http://jstrieb.github.io/urlpages/examples/food-blog.html)
-- The entire [editor](http://jstrieb.github.io/urlpages/editor) encoded in the
+  [here](http://shaoeny.github.io/urlpages/examples/food-blog.html)
+- The entire [editor](http://shaoeny.github.io/urlpages/editor) encoded in the
   URL [here](https://tinyurl.com/y6nx5347)
 - This GitHub project page
-  [here](http://jstrieb.github.io/urlpages/examples/project-page.html)
+  [here](http://shaoeny.github.io/urlpages/examples/project-page.html)
 - A cloned New York Times Article
-  [here](http://jstrieb.github.io/urlpages/examples/nyt.html)
-
+  [here](http://shaoeny.github.io/urlpages/examples/nyt.html)
 
 ## Bookmarklet
 
 Currently, the bookmarklet is very much in-development (read: mostly doesn't
 work). Feel free to try it anyway by visiting the link below and following the
 instructions.
+
 - [Bookmarklet instruction page](https://tinyurl.com/y3lw36uh)
 
 Code for the bookmarklet can be found in
@@ -146,20 +142,20 @@ opportunities for URL Pages. Namely: cloning pages for archival purposes,
 sharing restricted information to bypass censorship, bypassing paywalls,
 storing entire pages in bookmarks, etc.
 
-
 ## Related Projects
 
 Since its original creation, it has been forked many times. Please open an
 issue if you would like me to link back to a fork or mirror.
+
 - One particularly improved version is JSPen
-    - [JSPen](http://jspen.co)
-    - [Post](https://medium.com/swlh/creating-jspen-a-codepen-like-editor-that-stores-pages-in-urls-b163934f06c8)
-      about the creation of JSPen
+  - [JSPen](http://jspen.co)
+  - [Post](https://medium.com/swlh/creating-jspen-a-codepen-like-editor-that-stores-pages-in-urls-b163934f06c8)
+    about the creation of JSPen
 
 Similar in some ways (though unrelated) to the following projects
+
 - [itty.bitty.site](https://github.com/alcor/itty-bitty)
 - [TinyEditor](https://github.com/umpox/TinyEditor)
-
 
 ## Project Status
 
@@ -169,15 +165,14 @@ backwards-compatible, so your links will never break.
 
 Even if something were to happen to me, and I could not continue to work on
 the project, URL Pages will continue to work as long as my GitHub account is
-open and the [jstrieb.github.io](https://jstrieb.github.io) domain is online.
-
+open and the [shaoeny.github.io](https://shaoeny.github.io) domain is online.
 
 ## To-do
 
 - Improve the bookmarklet -- it's mostly unusable as of right now
-    - Fix relative vs absolute linking
-    - Maybe try embedding images
-    - Import all `src`ed scripts directly
+  - Fix relative vs absolute linking
+  - Maybe try embedding images
+  - Import all `src`ed scripts directly
 - Improve UI in general and editors beyond simple `textarea` (perhaps integrate
   Ace or CodeMirror)
 - Make the buttons better/more efficient (don't update `href` on every key
